@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Collections() {
   return (
-    <section className="mt-10 mb-20 lg:mt-0">
+    <section className="mt-100 mb-20 lg:mt-0">
         <h2 className="font-bold text-2xl md:text-3xl">Our Collections</h2>
         <div className="flex flex-wrap items-center my-6">
            <div className="flex gap-4">
