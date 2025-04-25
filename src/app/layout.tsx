@@ -7,7 +7,7 @@ const raleway = Raleway({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   display: 'swap',
-  variable: '--font-raleway', // Définition comme variable CSS
+  //variable: '--font-raleway', // Définition comme variable CSS
 });
 
 export const metadata: Metadata = {
