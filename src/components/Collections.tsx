@@ -21,7 +21,7 @@ export default function Collections() {
           <div className="rounded-xl border p-2 w-[282px] flex justify-center">
             <div>
               <div className="bg-[url('/img5.png')] h-[213px] w-[258px] bg-cover bg-center rounded-lg"></div>
-              <div className="flex justify-between my-3 font-medium">
+              <div className="flex justify-between my-3 font-bold">
                 <span className="inline-block">CyberPunk</span>
                 <span className="block gap-1 flex"><img src="/ethereum-ellipse.png" alt="Ethereum" />68</span>
               </div>
@@ -31,7 +31,7 @@ export default function Collections() {
           <div className="rounded-xl border p-2  w-[282px] flex justify-center">
             <div>
               <div className="bg-[url('/img6.jpg')] h-[213px] w-[258px] bg-cover bg-center rounded-lg"></div>
-              <div className="flex justify-between my-3 font-medium">
+              <div className="flex justify-between my-3 font-bold">
                 <span className="inline-block">Durolost Boll - Uper</span>
                 <span className="block gap-1 flex"><img src="/ethereum-ellipse.png" alt="Ethereum"/>68</span>
               </div>
@@ -41,7 +41,7 @@ export default function Collections() {
           <div className="rounded-xl border p-2  w-[282px] flex justify-center">
             <div>
               <div className="bg-[url('/img3.jpg')] h-[213px] w-[258px] bg-cover bg-center rounded-lg"></div>
-              <div className="flex justify-between my-3 font-medium">
+              <div className="flex justify-between my-3 font-bold">
                 <span className="inline-block">Space X Wiper</span>
                 <span className="block gap-1 flex"><img src="/ethereum-ellipse.png" alt="Ethereum" />68</span>
               </div>
@@ -51,7 +51,7 @@ export default function Collections() {
           <div className="rounded-xl border p-2  w-[282px] flex justify-center">
             <div>
               <div className="bg-[url('/img2.png')] h-[213px] w-[258px] bg-cover bg-center rounded-lg"></div>
-              <div className="flex justify-between my-3 font-medium">
+              <div className="flex justify-between my-3 font-bold">
                 <span className="inline-block">Snoop Dog</span>
                 <span className="block gap-1 flex"><img src="/ethereum-ellipse.png" alt="Ethereum" />68</span>
               </div>
