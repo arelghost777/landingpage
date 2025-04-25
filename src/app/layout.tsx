@@ -5,7 +5,7 @@ import { Raleway } from 'next/font/google';
 // Configuration de la police Raleway
 const raleway = Raleway({ 
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '600', '700'],
   display: 'swap',
   //variable: '--font-raleway', // Définition comme variable CSS
 });
