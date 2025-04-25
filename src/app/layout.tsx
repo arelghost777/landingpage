@@ -1,20 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Raleway } from 'next/font/google';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+// Configurez la police Raleway avec les options nécessaires
+const raleway = Raleway({ 
+  subsets: ['latin'], // Sous-ensemble de caractères
+  weight: ['400', '500', '600', '700'], // Poids nécessaires
+  display: 'swap', // Évite le flash de texte invisible
+  variable: '--font-raleway', // Optionnel: pour utiliser en variable CSS
 });
 
 export const metadata: Metadata = {
   title: "Landing Page",
   description: "Landing Page",
+  icons: "/frame1.png",
 };
 
 export default function RootLayout({
@@ -25,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 md:px-20`}
+        className={`raleway.className antialiased px-4 md:px-20`}
       >
         {children}
       </body>
