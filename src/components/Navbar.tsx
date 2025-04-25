@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full py-6 px-4 lg:px-6">
         {/* Logo */}
         <div>
-          <Image src="/frame1.png" alt="frame" className="w-8" />
+          <Image src="/frame1.png" alt="frame" width="40" height="40" />
         </div>
 
         {/* Menu Desktop (visible à partir de md) */}

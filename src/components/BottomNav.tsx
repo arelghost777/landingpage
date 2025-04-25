@@ -7,7 +7,7 @@ export default function BottomNav(){
     return(
         <footer>
             <div className="py-2">
-                <Image src="/frame1.png" alt="frame" className="w-8" />
+                <Image src="/frame1.png" alt="frame" width="40" height="40" />
             </div>
             <div className="border-t py-6 flex flex-wrap justify-between space-y-6">
                 <div>
