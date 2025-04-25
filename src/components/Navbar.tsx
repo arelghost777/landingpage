@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full py-6 px-4 lg:px-6">
         {/* Logo */}
         <div>
-          <img src="/frame1.png" alt="frame" className="w-8" />
+          <Image src="/frame1.png" alt="frame" className="w-8" />
         </div>
 
         {/* Menu Desktop (visible à partir de md) */}

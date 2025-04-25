@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 export default function BottomNav(){
 
     return(
         <footer>
             <div className="py-2">
-                <img src="/frame1.png" alt="frame" className="w-8" />
+                <Image src="/frame1.png" alt="frame" className="w-8" />
             </div>
             <div className="border-t py-6 flex flex-wrap justify-between space-y-6">
                 <div>
