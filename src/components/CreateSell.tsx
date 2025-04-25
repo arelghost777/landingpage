@@ -1,5 +1,4 @@
-import { BoltSlashIcon, BugAntIcon, CloudArrowDownIcon, CubeIcon, WalletIcon } from "@heroicons/react/24/outline";
-import { BubblesIcon } from "lucide-react";
+import { BoltSlashIcon, CloudArrowDownIcon, CubeIcon, WalletIcon } from "@heroicons/react/24/outline";
 
 export default function CreateSell(){
 
