@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Raleway } from 'next/font/google';
 
-// Configurez la police Raleway avec les options nécessaires
+// Configuration de la police Raleway
 const raleway = Raleway({ 
-  subsets: ['latin'], // Sous-ensemble de caractères
-  weight: ['400', '500', '600', '700'], // Poids nécessaires
-  display: 'swap', // Évite le flash de texte invisible
-  variable: '--font-raleway', // Optionnel: pour utiliser en variable CSS
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-raleway', // Définition comme variable CSS
 });
 
 export const metadata: Metadata = {
@@ -22,10 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`raleway.className antialiased px-4 md:px-20`}
-      >
+    <html lang="en" className={raleway.className}>
+      <body className={`antialiased px-4 md:px-20`}>
         {children}
       </body>
     </html>
